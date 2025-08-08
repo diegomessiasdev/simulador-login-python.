@@ -1,0 +1,11 @@
+usuario_correto = "admin"
+senha_correta = "12345"
+
+usuario_digitado = input("Digite o nome de usuario:")
+senha_digitado = input("Digite a senha do usuario:")
+
+if usuario_digitado + senha_digitado and senha_digitado == senha_correta:
+    print("loguin vem-sucedido!")
+else:
+    print("usuario ou senha incorreta!")
+    
